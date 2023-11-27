@@ -36,11 +36,7 @@ Player.defaultProps = {
 
 
 Player.propTypes = {
-  name : PropTypes.string,
-  team : PropTypes.string,
-  Nationality : PropTypes.string,
-  age : PropTypes.number,
-  jerseyNumber : PropTypes.number
+  el : PropTypes.object
 }
 
 
