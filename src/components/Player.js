@@ -26,9 +26,12 @@ const Player= ({el}) =>{
 
 
 Player.defaultProps = {
+  el :{
   name : "All Star",
   team : "NBA",
   Nationality : "undefined",
+  jerseyNumber : 0
+}
 }
 
 

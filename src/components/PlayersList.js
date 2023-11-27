@@ -5,7 +5,7 @@ const PlayersList=()=>{
     return(
        <div className='cardA'>
         {
-             Players.map((el,i,t)=><Player el={el}/>)
+             Players.map((el,i,t)=><Player key={i} el={el}/>)
         }
        </div>
     )
